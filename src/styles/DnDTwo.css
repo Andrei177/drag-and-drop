@@ -1,0 +1,47 @@
+.boards-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.boards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.board{
+    border: 3px solid green;
+    padding: 10px 10px;
+    border-radius: 7px;
+    height: 400px;
+}
+.board__title{
+    text-align: center;
+}
+.items{
+    padding: 10px 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: scroll;
+    height: 300px;
+    scroll-behavior: smooth;
+}
+/* хром, сафари */
+.items::-webkit-scrollbar { 
+    width: 0;
+}
+/* ie 10+ */
+.items { 
+    -ms-overflow-style: none; 
+}
+.item{
+    cursor: grab;
+    border: 1px solid lightgreen;
+    border-radius: 7px;
+    padding: 5px 5px;
+}

@@ -1,0 +1,23 @@
+.navbar{
+    background-color: rgb(23, 23, 23);;
+}
+.navbar__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+    margin: 0;
+    padding: 25px 0px;
+}
+.navbar-link{
+    color: rgb(30, 206, 30);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+}
+.active{
+    color: green;
+}
+.container{
+    margin: 0px 70px;
+}

@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/drag-and-drop/'>
       <AppRouter/>
     </BrowserRouter>
   )
